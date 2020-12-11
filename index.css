@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/freestyle-script');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: 116px;
+    font-family: 'Freestyle Script', sans-serif;
+    font-weight: 400;
+    margin: 10px 0 0 84px;
+}
+
+header img {
+    width: 590px;
+    height: 263px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+header nav ul li {
+    width: 123px;
+    height: 117px;
+    background-color: red;
+    margin: 1px;
+}
