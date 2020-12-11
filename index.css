@@ -10,6 +10,7 @@ body {
 header {
     display: flex;
     justify-content: space-around;
+    background-color: #0E0C38;
 }
 
 header h1 {
@@ -24,7 +25,7 @@ header img {
     height: 263px;
 }
 
-header nav ul {
+/* header nav ul {
     display: flex;
     justify-content: space-between;
     font-size: 22px;
@@ -35,4 +36,13 @@ header nav ul li {
     height: 117px;
     background-color: red;
     margin: 1px;
+} */
+
+/* 
+header nav ul li a {
+    margin: 0 auto;
+} */
+
+header nav {
+    margin-top: 100px;
 }
