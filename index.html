@@ -8,70 +8,79 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <h1>portfolio</h1>
-        <img src="/assets/logos/nav-dots.png" alt="dots">
-        <nav>
-            <!-- <ul>
-                <li> -->
-                    <a href="#">About</a>
-                <!-- </li>
-                <li> -->
-                    <a href="#">Portfolio</a>
-                <!-- </li>
-                <li> -->
-                    <a href="#">Contact</a>
-                <!-- </li>
-                <li> -->
-                    <a href="#">Get Started</a>
-                <!-- </li>
-            </ul> -->
-        </nav>
-    </header>
     <main>
         <section>
-            <div>
-                <h2>Hello, I am</h2>
-                <h2>Mark Reccardo</h2>
-                <p>A young <span>UI/UX</span> designer with crazy for mobile & web design.</p>
-                <p>Find me on</p>
-                <div>
-                    <img src="/assets/logos/behance.png" alt="behance">
-                    <img src="/assets/logos/dribbble.png" alt="dribbble">
-                    <img src="/assets/logos/insta.png" alt="insta">
-                    <img src="/assets/logos/linked-in.png" alt="linked in">
-                    <img src="/assets/logos/pinterest.png" alt="pinterest">
-                </div>
-                <div>
-                    <button>Hire Me</button>
-                    <button>Portfolio</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="/assets/pics/man-pic.png" alt="author">
-                </div>
-                <div>
+            <header>
+                <h1>portfolio</h1>
+                <img src="/assets/logos/nav-dots.png" alt="dots">
+                <nav class="web-menu">
                     <ul>
-                        <li>
-                            <a href="#">1</a>
+                        <li class="menu-hover">
+                            <a href="#">About</a>
+                            <div class="red-line"></div>
                         </li>
-                        <li>
-                            <a href="#">2</a>
+                        <li class="menu-hover">
+                            <a href="#">Portfolio</a>
+                            <div class="red-line"></div>
                         </li>
-                        <li>
-                            <a href="#">3</a>
+                        <li class="menu-hover">
+                            <a href="#">Contact</a>
+                            <div class="red-line"></div>
                         </li>
-                        <li>
-                            <a href="#">4</a>
+                        <li class="start">
+                            <a href="#">Get Started</a>
                         </li>
                     </ul>
-                    <img src="/assets/logos/vert-dots.png" alt="dots">
+                </nav>
+            </header>
+            <div class="bio-wrapper">
+                <div class="bio">
+                    <div class="back-circle"></div>
+                    <div class="bio-info">
+                        <h2>Hello, I am</h2>
+                        <h2>Mark Reccardo</h2>
+                        <p>A young <span><a href="#">UI/UX</a></span> designer with crazy for mobile & web design.</p>
+                        <p>Find me on</p>
+                    </div>
+                    <div class="social-contact">
+                        <img src="/assets/logos/behance.png" alt="behance">
+                        <img src="/assets/logos/dribbble.png" alt="dribbble">
+                        <img src="/assets/logos/insta.png" alt="insta">
+                        <img src="/assets/logos/linked-in.png" alt="linked in">
+                        <img src="/assets/logos/pinterest.png" alt="pinterest">
+                    </div>
+                    <div class="social-buttons">
+                        <button>Hire Me</button>
+                        <button>Portfolio</button>
+                    </div>
+                </div>
+                <div class="bio-pic">
+                    <div>
+                        <img src="/assets/pics/man-pic.png" alt="author">
+                    </div>
+                    <div class="pic-chooser">
+                        <ul>
+                            <li>
+                                <a href="#">01</a>
+                            </li>
+                            <li>
+                                <a href="#">02</a>
+                            </li>
+                            <li>
+                                <a href="#">03</a>
+                            </li>
+                            <li>
+                                <a href="#">04</a>
+                            </li>
+                        </ul>
+                        <img src="/assets/logos/vert-dots.png" alt="dots">
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
-                <div>
+        <section class="about-author">
+                <div class="about-cv">
+                    <!-- <img src="/assets/logos/dots.png" alt="dots"> -->
                     <h2>About Me</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
