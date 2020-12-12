@@ -7,20 +7,22 @@ body {
     font-weight: 400;
 }
 
-header {
+.page-welcome header {
     display: flex;
     justify-content: space-around;
     background-color: #0E0C38;
+    padding-bottom: 64px;
 }
 
-header h1 {
+.page-welcome header h1 {
     font-size: 116px;
     font-family: 'Freestyle Script', sans-serif;
     font-weight: 400;
-    margin: 10px 0 0 84px;
+    margin: 10px 0 0 85px;
+    color: white;
 }
 
-header img {
+.page-welcome header img {
     width: 590px;
     height: 263px;
 }
@@ -43,6 +45,261 @@ header nav ul li a {
     margin: 0 auto;
 } */
 
-header nav {
-    margin-top: 100px;
+.web-menu {
+    width: 650px;
+    margin-top: 75px;
 }
+
+.web-menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.web-menu ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.menu-hover a {
+    padding: 70px 30px 30px;
+}
+
+.menu-hover a:hover {
+    background-color: #FF0513;
+}
+
+.start a {
+    font-family: 'Raleway';
+    padding: 26px 45px;
+    border: 1px solid white;
+    border-radius: 45px;
+}
+
+
+.bio-wrapper {
+    background-color: #0E0C38;
+}
+
+.bio {
+    margin-left: 85px;
+    width: 780px;
+    display: inline-block;
+}
+
+.bio-info {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.bio h2:first-child {
+    font-size: 41px;
+    font-weight: 300;
+}
+
+.bio-info h2:nth-of-type(2){
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.bio-info p:nth-of-type(1) {
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.bio-info p:nth-of-type(2) {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.bio-info a {
+    color: red;
+    text-decoration: none;
+}
+
+.social-contact {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.social-buttons {
+    width: 590px;
+}
+
+.social-buttons button {
+    font-family: 'Raleway';
+    font-size: 30px;
+    padding: 40px 70px;
+    border-radius: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-right: 25px;
+}
+
+.social-buttons button:hover {
+    background-color: #FF0513;
+    border-color: #FF0513;
+}
+
+.back-circle {
+    width: 575px;
+    height: 530px;
+    background-color: #142963;
+    opacity: 0.2;
+    position: absolute;
+    border-radius: 100%;
+    left: -210px;
+    top: 355px;
+}
+
+.bio-pic {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bio-pic>div {
+    display: inline-block;
+}
+
+.pic-chooser {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.pic-chooser a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8D8D8D;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #707070;
+}
+
+.pic-chooser ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.about-author {
+    background-color: #040221;
+    padding: 200px 85px 100px;
+    color: white;
+    display: flex;
+}
+
+.about-author>div {
+    display: inline-block;
+}
+
+.about-cv {
+    width: 55%;
+    margin-top: 150px;
+    position: relative;
+}
+
+.about-cv h2 {
+    font-size: 60px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.about-cv p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 54px;
+}
+
+.about-cv p:nth-of-type(1) {
+    margin-bottom: 85px;
+}
+
+.about-cv button {
+    margin-top: 170px;
+    padding: 35px 60px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.about-author-pics {
+    vertical-align: middle;
+    padding: 70px 65px;
+    background-color: #0E0C38;
+    position: relative;
+}
+
+.about-author-pics img:nth-of-type(1) {
+    display: block;
+}
+
+.about-author-pics img:nth-of-type(2) {
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+}
+
+.red-line {
+    width: 345px;
+    height: 1px;
+    background-color: red;
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 240px;
+    vertical-align: top;
+}
+
+.about-cv img {
+    position: absolute;
+    left: -85px;
+    top: -100px;
+}
+
+.portfolio {
+    background-color: #040221;
+    padding: 75px 85px 0 85px;
+}
+
+.portfolio-title h2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    display: inline-block;
+}
+
+.portfolio-title .red-line {
+    margin-left: 40px;
+    vertical-align: super;
+}
+
+.portfolio-title {
+    display: inline-block;
+}
+
+.portfolio-buttons {
+    display: inline-block;
+    float: right;
+}
+
+.portfolio-buttons button {
+    font-size: 14px;
+    padding: 18px;
+    border-radius: 100%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.portfolio-buttons button:first-of-type{
+    margin-right: 15px;
+}
+
+
