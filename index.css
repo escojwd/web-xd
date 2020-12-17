@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('http://fonts.cdnfonts.com/css/freestyle-script');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://allfont.net/allfont.css?fonts=haettenschweiler');
 
 body {
     font-family: 'Poppins';
@@ -22,31 +23,7 @@ body {
     color: white;
 }
 
-.page-welcome header img {
-    width: 590px;
-    height: 263px;
-}
-
-/* header nav ul {
-    display: flex;
-    justify-content: space-between;
-    font-size: 22px;
-}
-
-header nav ul li {
-    width: 123px;
-    height: 117px;
-    background-color: red;
-    margin: 1px;
-} */
-
-/* 
-header nav ul li a {
-    margin: 0 auto;
-} */
-
 .web-menu {
-    width: 650px;
     margin-top: 75px;
 }
 
@@ -67,6 +44,11 @@ header nav ul li a {
 
 .menu-hover a:hover {
     background-color: #FF0513;
+}
+
+.menu-hover a:hover + .menu-red-line {
+    border: 1px solid #FF0513;
+    margin-top: 40px;
 }
 
 .start a {
@@ -251,10 +233,9 @@ header nav ul li a {
     width: 345px;
     height: 1px;
     background-color: red;
-    margin-top: 40px;
     display: inline-block;
-    margin-left: 240px;
     vertical-align: top;
+    margin: 40px 0 0 240px;
 }
 
 .about-cv img {
@@ -265,7 +246,11 @@ header nav ul li a {
 
 .portfolio {
     background-color: #040221;
-    padding: 75px 85px 0 85px;
+    padding: 75px 85px 175px 85px;
+}
+
+.portfolio-menu-wrapper {
+    margin-bottom: 130px;
 }
 
 .portfolio-title h2 {
@@ -289,16 +274,194 @@ header nav ul li a {
 }
 
 .portfolio-buttons button {
-    font-size: 14px;
-    padding: 18px;
+    font-size: 30px;
+    width: 102px;
+    height: 102px;
     border-radius: 100%;
     color: white;
     background-color: transparent;
     border: 1px solid white;
 }
 
+.portfolio-buttons button:hover {
+    background: #FF0513;
+    border-color: #FF0513;
+}
+
 .portfolio-buttons button:first-of-type{
     margin-right: 15px;
 }
 
+.portfolio-menu ul {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.portfolio-menu ul li a {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+.portfolio-menu ul li a:hover {
+    color: #FF0513;
+}
+
+.portfolio-projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio-projects img + .project-cover {
+    background-color: rgba(255, 5, 19, 0);
+    display: block;
+    width: 505px;
+    height: 510px;
+    border-radius: 40px;
+}
+
+.single-project {
+    position: relative;
+    margin-bottom: 108px;
+}
+
+.project-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.5s;
+}
+
+.project-cover-title {
+    position: absolute;
+    bottom: 40px;
+    display: none;
+}
+
+.white-line {
+    display: inline-block;
+    width: 50px;
+    border: 1px solid white;
+}
+
+.cover-text {
+    display: inline-block;
+    vertical-align: text-top;
+    color: white;
+    width: 280px;
+}
+
+.cover-text h2 {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.cover-text p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.portfolio-projects .single-project .project-cover:hover {
+    background-color: rgba(255, 5, 19, 0.7);
+}
+
+.portfolio-projects .single-project .project-cover:hover .project-cover-title{
+    display: block;
+}
+
+.author-abilities {
+    background-color: #0E0C38;
+    padding: 112px 180px 265px;
+}
+
+.abilities-title {
+    text-align: center;
+    color: white;
+}
+
+.abilities-title h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.diff {
+    margin: 45px 0;
+}
+
+.abilities-title p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.abilities-pictures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 170px 0 0;
+}
+
+.single-picture {
+    text-align: center;
+    margin: 80px 70px;
+    color: white;
+    width: 350px;
+}
+
+.single-picture h3 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.single-picture p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 3;
+}
+
+.costumers-comments {
+    background: #040221;
+    padding: 120px 160px 150px 40px;
+}
+
+.comments-title {
+    text-align: center;
+    color: white;
+    width: 91%;
+    margin: 0 auto 140px;
+}
+
+.comments-title h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.comments-title p {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.comment-text {
+    display: inline-block;
+    color: white;
+    width: 46%;
+    vertical-align: top;
+    margin-left: 105px;
+}
+
+.comment-text p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+.comment-text span {
+    font-family: 'Haettenschweiler', arial;
+    font-size: 200px;
+    font-weight: 400;
+    color: #FF0513;
+}
