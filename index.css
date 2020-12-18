@@ -623,8 +623,9 @@ body {
 
 .grey-line {
     width: 100%;
-    border: 1px solid #707070;
     margin-bottom: 54px;
+    height: 1px;
+    background-color: #707070;
 }
 
 .copy-rights {
