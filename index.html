@@ -11,7 +11,7 @@
     <main>
         <section class="page-welcome">
             <header>
-                <h1>portfolio</h1>
+                <a href="#">portfolio</a>
                 <img src="/assets/logos/nav-dots.png" alt="dots">
                 <nav class="web-menu">
                     <ul>
@@ -106,8 +106,12 @@
                     <div class="red-line"></div>
                 </div>
                 <div class="portfolio-buttons">
-                    <button><</button>
-                    <button>></button>
+                    <button>
+                        <div class="slider-btn left"></div>
+                    </button>
+                    <button>
+                        <div class="slider-btn right"></div>
+                    </button>
                 </div>
                 <header class="portfolio-menu">
                     <ul>
@@ -264,59 +268,63 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Let's Make Something Great Together</h2>
+        <section class="coop-working">
+            <div class="red-line vertical"></div>
+            <div class="coop-working-title">
+                <h2>Let's Make Something <br> Great Together</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore et t enim ad minim veniam, quis nostrud exercitation.
                 </p>
             </div>
-            <div>
+            <div class="registration">
                 <form action="type">
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
                     <input type="text" placeholder="Phone#">
-                    <section>
-                        <option value="Budget-1"></option>
-                        <option value="Budget-2"></option>
-                        <option value="Budget-3"></option>
-                    </section>
-                    <textarea name="text" id="" placeholder="Message"></textarea>
+                    <select name="budget">
+                        <option value="budget-1">budget</option>
+                        <option value="budget-2">budget 2</option>
+                        <option value="budget-3">budget 3</option>
+                        <option value="budget-4">budget 4</option>
+                      </select>
+                    <textarea name="text" placeholder="Message"></textarea>
                 </form>
                 <button>Hire me</button>
             </div>
         </section>
     </main>
-    <footer>
-        <div></div>
+    <footer class="main-footer">
+        <div class="red-line vertical second"></div>
         <h2>Portfolio</h2>
-        <ul>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>|</li>
-            <li>
-                <a href="#">Portfolio</a>
-            </li>
-            <li>|</li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
-        <ul>
-            <li>NY /</li>
-            <li>+1234567890 /</li>
-            <li>hello@graphics.studio.com</li>
-        </ul>
-        <div>
+        <div class="footer-menu-address">
+            <ul>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="footer-address">
+                <p>NY /</p>
+                <p>+1234567890 /</p>
+                <p>hello@graphics.studio.com</p>
+            </div>
+        </div>
+        <div class="footer-social-icons">
             <img src="/assets/logos/behance.png" alt="behance">
             <img src="/assets/logos/dribbble.png" alt="dribbble">
             <img src="/assets/logos/insta.png" alt="insta">
             <img src="/assets/logos/linked-in.png" alt="linked in">
             <img src="/assets/logos/pinterest.png" alt="pinterest">
         </div>
-        <div></div>
-        <p>Copyright © 2019 Graphics Studio | All rights reserved</p>
+        <div class="grey-line"></div>
+        <p class="copy-rights">Copyright © 2019 Graphics Studio | All rights reserved</p>
     </footer>
     <script src="index.js"></script>
 </body>

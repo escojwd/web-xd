@@ -15,12 +15,13 @@ body {
     padding-bottom: 64px;
 }
 
-.page-welcome header h1 {
+.page-welcome header>a {
     font-size: 116px;
     font-family: 'Freestyle Script', sans-serif;
     font-weight: 400;
     margin: 10px 0 0 85px;
     color: white;
+    text-decoration: none;
 }
 
 .web-menu {
@@ -158,7 +159,11 @@ body {
     color: #8D8D8D;
     text-decoration: none;
     margin-bottom: 10px;
-    border-bottom: 5px solid #707070;
+    border-bottom: 2px solid #707070;
+}
+
+.pic-chooser a:hover {
+    color: white;
 }
 
 .pic-chooser ul {
@@ -196,7 +201,7 @@ body {
 .about-cv p {
     font-size: 24px;
     font-weight: 300;
-    line-height: 54px;
+    line-height: 55px;
 }
 
 .about-cv p:nth-of-type(1) {
@@ -271,6 +276,23 @@ body {
 
 .portfolio-buttons {
     float: right;
+}
+
+.slider-btn {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    transform: rotate(-45deg);
+}
+
+.left {
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+}
+
+.right {
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
 }
 
 .portfolio-buttons button {
@@ -395,7 +417,7 @@ body {
 .abilities-title p {
     font-size: 30px;
     font-weight: 300;
-    line-height: 1.5;
+    line-height: 55px;
 }
 
 .abilities-pictures {
@@ -415,12 +437,13 @@ body {
 .single-picture h3 {
     font-size: 35px;
     font-weight: 500;
+    margin-top: 20px;
 }
 
 .single-picture p {
     font-size: 22px;
     font-weight: 300;
-    line-height: 3;
+    line-height: 44px;
 }
 
 .costumers-comments {
@@ -443,6 +466,7 @@ body {
 .comments-title p {
     font-size: 30px;
     font-weight: 300;
+    line-height: 55px;
 }
 
 .comment-text {
@@ -464,4 +488,146 @@ body {
     font-size: 200px;
     font-weight: 400;
     color: #FF0513;
+}
+
+.coop-working {
+    background-color: #040B33;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.coop-working-title {
+    width: 48%;
+    margin: 0 auto 90px;
+}
+
+.coop-working-title h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 33px;
+}
+
+.coop-working-title p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+.vertical {
+    width: 1px;
+    height: 187px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px 0 48px;
+}
+
+.registration form {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+.registration form input, select {
+    width: 45%;
+    height: 90px;
+    display: inline-block;
+    margin-bottom: 50px;
+    color: #707070;
+}
+
+.registration form textarea {
+    width: 100%;
+    height: 170px;
+    padding: 27px 0 0 25px;
+    margin-bottom: 90px;
+    height: 195px;
+    resize: none;
+
+}
+
+.registration form select {
+    width: 45.6%;
+}
+
+.registration button {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    height: 100px;
+    width: 280px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-bottom: 140px;
+}
+
+.registration button:hover {
+    background-color: #FF0513;
+    border-color: #FF0513;
+}
+
+.main-footer {
+    background-color: #040221;
+    text-align: center;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.main-footer h2 {
+    font-family: 'Freestyle Script', sans-serif;
+    font-size: 95px;
+    font-weight: 500;
+    margin-bottom: 46px;
+}
+
+.second {
+    height: 83px;
+    margin: 0 0 23px;
+}
+
+.footer-menu-address {
+    width: 500px;
+    margin: 0 auto 69px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-menu-address ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 250px;
+    margin: 0 auto 25px;
+}
+
+.footer-menu-address ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-address p {
+    display: inline-block;
+}
+
+.footer-social-icons {
+    width: 300px;
+    margin: 0 auto 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grey-line {
+    width: 100%;
+    border: 1px solid #707070;
+    margin-bottom: 54px;
+}
+
+.copy-rights {
+    font-size: 20px;
+    font-weight: 400;
 }
