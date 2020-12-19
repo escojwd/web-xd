@@ -73,6 +73,8 @@ body {
 .bio-info {
     color: white;
     margin-bottom: 30px;
+    z-index: 9999;
+    position: relative;
 }
 
 .bio h2:first-child {
@@ -106,6 +108,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
+    position: relative;
+    z-index: 9999;
 }
 
 .social-buttons {
@@ -137,6 +141,7 @@ body {
     border-radius: 100%;
     left: -210px;
     top: 355px;
+    z-index: 1;
 }
 
 .bio-pic {
@@ -187,7 +192,7 @@ body {
 
 .about-cv {
     width: 55%;
-    margin-top: 150px;
+    margin-top: 100px;
     position: relative;
 }
 
@@ -217,11 +222,23 @@ body {
     border-radius: 50px;
 }
 
+.about-right-side {
+    position: relative;
+}
+
 .about-author-pics {
     vertical-align: middle;
     padding: 70px 65px;
     background-color: #0E0C38;
     position: relative;
+    z-index: 999;
+}
+
+.under-author-pic-dots {
+    position: absolute;
+    bottom: -35px;
+    left: -80px;
+    z-index: 1;
 }
 
 .about-author-pics img:nth-of-type(1) {
